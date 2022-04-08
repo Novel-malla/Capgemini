@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+    <bean id="LifeCycle" class="springcoreq9.BeanLifeCycle">
+        <property name="id" value="01"/>
+        <property name="name" value="Novel"/>
+    </bean>
+    <bean id="LifeCycle1" class="springcoreq9.BeanLifeCycle">
+        <property name="id" value="02"/>
+        <property name="name" value="Raju"/>
+    </bean>
+</beans>
